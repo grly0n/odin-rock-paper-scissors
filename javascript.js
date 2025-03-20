@@ -50,6 +50,9 @@ function playGame() {
     for (let round = 0; round < 5; round++) {
         playRound(getHumanChoice(), getComputerChoice());
     }
+    console.log(`Final score: 
+            Human: ${humanScore}
+            Computer: ${computerScore}`);
 }
 
 playGame();
